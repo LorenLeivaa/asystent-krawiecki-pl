@@ -198,3 +198,10 @@ body { display: flex; flex-direction: column; }
   .marca-texto h1 { font-size: .92rem; }
   .cabecera { padding: .6rem .8rem; }
 }
+
+/* PL: titulo largo en la cabecera */
+@media (max-width: 520px) {
+  .cabecera { flex-wrap: wrap; }
+  .acciones { width: 100%; justify-content: space-between; }
+  .marca-texto h1 { font-size: .9rem; }
+}
