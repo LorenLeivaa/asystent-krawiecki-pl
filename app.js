@@ -300,7 +300,7 @@ async function enviar(pregunta) {
       }
     }
   } catch {
-    mostrarError('Połączenie zostało przerwane, zanim skończyłem odpowiadać. ' +
+    mostrarError('Połączenie zostało przerwane, zanim skończyła się moja odpowiedź. ' +
       'Sprawdź internet i spróbuj ponownie.');
   }
 
